@@ -3,7 +3,7 @@
 </script>
 
 <div class="answer">
-    <h2 class="quote">{answerTitle}</h2>
+    <h2 class="quote">{answerTitle}
     <div class="options">
         <div class="option"><span class="code">A</span> Kaas</div>
         <div class="option answer"><span class="code">B</span> Worst</div>
