@@ -11,17 +11,15 @@
   let selectedEpisode: string = '';
   let episodeData: EpisodeDataType = {};
 
-  async function fetchEpisode() {
-    console.log(selectedEpisode);
+  async function fetchEpisode(): Promise<void> {
     if (selectedEpisode !== '') {
       episodeData = (await http.get(`/${selectedEpisode}.json`)).data;
     }
+    episodeData = {};
   }
 
-  async function getData() {
+  async function getData(): Promise<void> {
     episodes = (await http.get('/episodes.json')).data;
-
-    console.log(episodes);
   }
 
   function parseTimestamp(timestamp: number): string {
