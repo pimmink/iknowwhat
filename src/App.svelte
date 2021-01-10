@@ -24,7 +24,7 @@
 	{/each}
 </main>
 
-<style>
+<style type="text/scss">
 	main {
 		text-align: center;
 		padding: 1em;
@@ -44,4 +44,21 @@
 			max-width: none;
 		}
 	}
+
+    $color: red;
+
+    h1 {
+        color: $color;
+    }
+
+    div {
+        background: green;
+
+    > p {
+        color: #fff;
+    }
+    }
 </style>
+<div>
+    <p>SASS is working!</p>
+</div>
