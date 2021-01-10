@@ -40,9 +40,18 @@
         </option>
       {/each}
     </select>
-    <pre>
+    {#if episodeData.events}
+      <div>
+        {#each episodeData.events as event}
+          {#if event.content}
+            <Answer content={event.content}></Answer>
+          {/if}
+        {/each}
+      </div>
+    {/if}
+    <!-- <pre>
       {JSON.stringify(episodeData, null, 2)}
-    </pre>
+    </pre> -->
 </main>
 
 <style type="text/scss">
