@@ -14,8 +14,9 @@
   async function fetchEpisode(): Promise<void> {
     if (selectedEpisode !== '') {
       episodeData = (await http.get(`/${selectedEpisode}.json`)).data;
+    } else {
+      episodeData = {};
     }
-    episodeData = {};
   }
 
   async function getData(): Promise<void> {
