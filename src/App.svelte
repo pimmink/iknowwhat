@@ -1,9 +1,20 @@
 <script lang="ts">
+  import dayjs from 'dayjs';
 	import Answer from './components/Answer.svelte';
 	import * as decryptLib from './lib/decrypt.ts';
   import http from './lib/http.ts';
   
-  let episodes: [] = [];
+  type EpisodeType = {
+    broadcastWindowEndDate: number;
+    broadcastWindowStartDate: number;
+    contentId: string;
+    episodeCode: string;
+    openDate: number;
+    state: string;
+    totalScore: number;
+  }
+
+  let episodes: EpisodeType[] = [];
 
   // type AnswerType = {
   //     correctAnswer: string;
@@ -20,6 +31,10 @@
     console.log(episodes);
   }
 
+  function parseTimestamp(timestamp) {
+    return dayjs(timestamp).format('DD MMMM YYYY HH:mm');
+  }
+
   getData();
 </script>
 
@@ -27,7 +42,9 @@
     <label for="episodes">Which episode:</label>
     <select name="episodes" id="episodes">
       {#each episodes as episode}
-        <option value={episode.episodeCode}>{episode.episodeCode}</option>
+        <option value={episode.episodeCode}>
+          {parseTimestamp(episode.broadcastWindowStartDate)}
+        </option>
       {/each}
     </select>
 </main>
