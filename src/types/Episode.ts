@@ -8,23 +8,79 @@ export type EpisodeType = {
   totalScore: number;
 }
 
+type Group = {
+  amountCorrect: number;
+  amountParticipated: number;
+  group: string;
+  groupType: string;
+  totalScore: number;
+}
+
+type Phase = {
+  name: string,
+  offset: number;
+}
+
+type Answer = {
+  code: string;
+  text: string;
+}
+
+type Block = {
+  clientMetaData: object;
+  duration: number;
+}
+
+type Stats = {
+  amountParticipated: number;
+  totalAnswerDeviation: number;
+};
+
+type ClientMetaData = {
+  episodeId: string;
+};
+
+type Event = {
+  content: {
+    answers: Answer[];
+    correctAnswer: string;
+    eventProperties: object;
+    score: number;
+    text: string;
+  };
+  eventId: string;
+  finalized: boolean;
+  finalizedDate: number;
+  offset: number;
+  phases: Phase[];
+  stats: {
+    groups: Group[];
+    averageStats: Stats;
+  };
+  type: string;
+  weekGameBlockNr: number;
+}
+
 export type EpisodeDataType = {
   audioSyncType: string;
   blockIndex: number;
-  blocks: [];
+  blocks: Block[];
   broadcastWindowEndDate: string;
   broadcastWindowStartDate: string;
   canAudioSync: boolean;
-  clientMetaData: object; //{episodeId: "5fe9f2f5e4b02b2f9c166481"}
+  clientMetaData: ClientMetaData;
   contentId: string;
   contentVersion: number;
   crowdSync: boolean;
   episodeCode: string;
-  events: [];
+  events: Event[];
   interactionTiming: string;
   openDate: number;
   state: string;
-  stats: object;
+  stats: {
+    groups: Group[];
+    averageStats: Stats;
+  };
   timingVersion: number
   totalScore: number;
   version: number;
