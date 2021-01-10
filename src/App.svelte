@@ -9,7 +9,7 @@
   let episodes: EpisodeType[] = [];
 
   let selectedEpisode: string = '';
-  let episodeData: EpisodeDataType;
+  let episodeData: EpisodeDataType = {};
 
   async function fetchEpisode() {
     console.log(selectedEpisode);
@@ -52,7 +52,7 @@
   @mixin prefix($property, $value, $vendors: webkit moz ms o khtml, $default: true) {
     @if $vendors {
       @each $vendor in $vendors {
-          #{"-" + $vendor + "-" + $property}: #{$value};
+          #{"-" + $vendor + "-" + $property}: #{$value};  
       }
     }
     @if $default {
