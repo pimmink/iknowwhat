@@ -33,7 +33,7 @@
 <main>
     <label for="episodes">Which episode:</label>
     <select name="episodes" id="episodes" bind:value={selectedEpisode} on:change="{() => fetchEpisode()}">
-      <option value={null}>Selecteer</option>
+      <option value={''}>Selecteer</option>
       {#each episodes as episode}
         <option value={episode.episodeCode}>
           {parseTimestamp(episode.broadcastWindowStartDate)}
