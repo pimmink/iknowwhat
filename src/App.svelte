@@ -1,10 +1,26 @@
 <script lang="ts">
+	import Answer from './components/Answer.svelte';
+
 	export let name: string;
+
+	type AnswerType = {
+		correctAnswer: string;
+		title: string;
+	}
+
+	const answers: Array<AnswerType> = [
+		{ correctAnswer: '4', title: 'Haha' },
+		{ correctAnswer: '5', title: 'Haha2' },
+		{ correctAnswer: '6', title: 'Haha3' },
+		{ correctAnswer: '7', title: 'Haha5' },
+		{ correctAnswer: '8', title: 'Haha4' },
+	];
 </script>
 
 <main>
-	<h1>Hello {name}!</h1>
-	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
+	{#each answers as answer}
+		<Answer answerTitle={answer.title} />
+	{/each}
 </main>
 
 <style>
