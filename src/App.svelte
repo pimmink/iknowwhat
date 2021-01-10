@@ -18,10 +18,13 @@
 </script>
 
 
-<main>
+<main>s
 	{#each answers as answer}
 		<Answer answerTitle={answer.title} />
 	{/each}
+    <div>
+        <p>SASS is working!</p>
+    </div>
 </main>
 
 <style type="text/scss">
@@ -59,6 +62,3 @@
     }
     }
 </style>
-<div>
-    <p>SASS is working!</p>
-</div>
