@@ -75,6 +75,10 @@
 
   :global(body) {
     background-color: $lightgrey;
+    background-image: url("/images/bg.svg");
+    background-size: 82vw;
+    background-repeat: no-repeat;
+    background-position: center bottom;
     color: $grey;
   }
   main {
