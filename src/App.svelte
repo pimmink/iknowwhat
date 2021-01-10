@@ -10,21 +10,22 @@
 
 	const answers: Array<AnswerType> = [
 		{ correctAnswer: '4', title: 'Haha' },
-		{ correctAnswer: '5', title: 'Haha2' },
-		{ correctAnswer: '6', title: 'Haha3' },
-		{ correctAnswer: '7', title: 'Haha5' },
-		{ correctAnswer: '8', title: 'Haha4' },
 	];
+
 </script>
 
 
-<main>s
+<main>
 	{#each answers as answer}
 		<Answer answerTitle={answer.title} />
 	{/each}
     <div>
-        <p>SASS is working!</p>
+        <h1>I know what.</h1>
     </div>
+    <label for="episodes">Which episode:</label>
+    <select name="episodes" id="episodes">
+        <option value="20211016">Episode</option>
+    </select>
 </main>
 
 <style type="text/scss">
