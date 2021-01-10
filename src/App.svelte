@@ -25,13 +25,17 @@
 	console.log(JSON.parse(decryptLib.decrypt(data.token, data.data)));
 </script>
 
-<main>
+
+<main>s
 	{#each answers as answer}
 		<Answer answerTitle={answer.title} />
 	{/each}
+    <div>
+        <p>SASS is working!</p>
+    </div>
 </main>
 
-<style>
+<style type="text/scss">
 	main {
 		text-align: center;
 		padding: 1em;
@@ -51,4 +55,18 @@
 			max-width: none;
 		}
 	}
+
+    $color: red;
+
+    h1 {
+        color: $color;
+    }
+
+    div {
+        background: green;
+
+    > p {
+        color: #fff;
+    }
+    }
 </style>
