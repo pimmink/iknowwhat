@@ -25,13 +25,23 @@
   //     {correctAnswer: '4', title: 'Haha'},
   // ];
 
+  let selectedEpisode: string = '';
+  let episodeData: Record<string, any>;
+
+  async function fetchEpisode() {
+    console.log(selectedEpisode);
+    if (selectedEpisode !== '') {
+      episodeData = (await http.get(`/${selectedEpisode}.json`)).data;
+    }
+  }
+
   async function getData() {
     episodes = (await http.get('/episodes.json')).data;
 
     console.log(episodes);
   }
 
-  function parseTimestamp(timestamp) {
+  function parseTimestamp(timestamp: number): string {
     return dayjs(timestamp).format('DD MMMM YYYY HH:mm');
   }
 
@@ -40,13 +50,17 @@
 
 <main>
     <label for="episodes">Which episode:</label>
-    <select name="episodes" id="episodes">
+    <select name="episodes" id="episodes" bind:value={selectedEpisode} on:change="{() => fetchEpisode()}">
+      <option value={null}>Selecteer</option>
       {#each episodes as episode}
         <option value={episode.episodeCode}>
           {parseTimestamp(episode.broadcastWindowStartDate)}
         </option>
       {/each}
     </select>
+    <pre>
+      {JSON.stringify(episodeData, null, 2)}
+    </pre>
 </main>
 
 <style type="text/scss">
