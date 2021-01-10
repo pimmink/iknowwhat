@@ -40,7 +40,7 @@ type ClientMetaData = {
   episodeId: string;
 };
 
-type Event = {
+export type Event = {
   content: {
     answers: Answer[];
     correctAnswer: string;
