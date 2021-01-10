@@ -1,0 +1,71 @@
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>XHR Proxy</title>
+    <script type="text/javascript">
+    "use strict";
+    ! function(t) {
+      function e(e, a) {
+        a = a || "*", t.parent.postMessage(o ? e : JSON.stringify(e), a)
+      }
+
+      function a(t, a) {
+        var n = d[a];
+        n && 4 === n.readyState && (e({
+          type: "readyStateChange",
+          id: a,
+          readyState: n.readyState,
+          responseText: n.responseText,
+          status: n.status
+        }, t), delete d[a])
+      }
+
+      function n(t, a, n, r, o) {
+        var s = r ? n.upload : n;
+        s.addEventListener(o, function(n) {
+          e({
+            type: "event",
+            upload: r,
+            id: a,
+            event: {
+              type: n.type,
+              lengthComputable: n.lengthComputable,
+              loaded: n.loaded,
+              total: n.total
+            }
+          }, t), "timeout" === n.type && delete d[a]
+        }, !1)
+      }
+
+      function r(t) {
+        var e = t.data;
+        if (o = "object" == typeof e, !o) try {
+          e = JSON.parse(e)
+        } catch (t) {
+          return
+        }
+        var r, s, i, p, c = t.origin,
+          u = e.id,
+          l = e.rpcs,
+          y = l ? l.length : 0,
+          v = d[u];
+        for (v || (v = d[u] = new XMLHttpRequest, v.onreadystatechange = function() {
+            try {
+              a(c, u)
+            } catch (t) {}
+          }), r = 0; r < y; r++) s = l[r], i = s.method, p = s.args, "addEventListener" === i ? n(c, u, v, p[0], p[1]) : (v[i].apply(v, p), "abort" === i && delete d[u])
+      }
+      var d = t.xhrs = {},
+        o = !1;
+      t.addEventListener ? t.addEventListener("message", r, !1) : t.attachEvent && t.attachEvent("onmessage", r), e({
+        type: "initialized"
+      })
+    }(window);
+    </script> 
+  </head>
+  <body>
+    <h1>XHR Proxy</h1>
+    <p>Copy this file to the root of each server you wish to make cross origin PlayToTV requests to.</p>
+  </body>
+</html>

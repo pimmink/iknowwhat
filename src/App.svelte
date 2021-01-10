@@ -1,29 +1,51 @@
 <script lang="ts">
-    import Answer from './components/Answer.svelte';
+  import dayjs from 'dayjs';
+	import Answer from './components/Answer.svelte';
+	import * as decryptLib from './lib/decrypt.ts';
+  import http from './lib/http.ts';
+  
+  type EpisodeType = {
+    broadcastWindowEndDate: number;
+    broadcastWindowStartDate: number;
+    contentId: string;
+    episodeCode: string;
+    openDate: number;
+    state: string;
+    totalScore: number;
+  }
 
-    export let name: string;
+  let episodes: EpisodeType[] = [];
 
-    type AnswerType = {
-        correctAnswer: string;
-        title: string;
-    }
+  // type AnswerType = {
+  //     correctAnswer: string;
+  //     title: string;
+  // }
 
-    const answers: Array<AnswerType> = [
-        {correctAnswer: '4', title: 'Haha'},
-    ];
+  // const answers: Array<AnswerType> = [
+  //     {correctAnswer: '4', title: 'Haha'},
+  // ];
 
+  async function getData() {
+    episodes = (await http.get('/episodes.json')).data;
+
+    console.log(episodes);
+  }
+
+  function parseTimestamp(timestamp) {
+    return dayjs(timestamp).format('DD MMMM YYYY HH:mm');
+  }
+
+  getData();
 </script>
 
 <main>
-    {#each answers as answer}
-        <Answer answerTitle={answer.title}/>
-    {/each}
-    <div>
-        <h1>{ name }</h1>
-    </div>
     <label for="episodes">Which episode:</label>
     <select name="episodes" id="episodes">
-        <option value="20211016">Episode</option>
+      {#each episodes as episode}
+        <option value={episode.episodeCode}>
+          {parseTimestamp(episode.broadcastWindowStartDate)}
+        </option>
+      {/each}
     </select>
 </main>
 
