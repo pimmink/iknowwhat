@@ -3,64 +3,24 @@
 	import Answer from './components/Answer.svelte';
 	import * as decryptLib from './lib/decrypt.ts';
   import http from './lib/http.ts';
-  
-  type EpisodeType = {
-    broadcastWindowEndDate: number;
-    broadcastWindowStartDate: number;
-    contentId: string;
-    episodeCode: string;
-    openDate: number;
-    state: string;
-    totalScore: number;
-  }
 
-  type EpisodeDataType = {
-    audioSyncType: string;
-    blockIndex: number;
-    blocks: [];
-    broadcastWindowEndDate: string;
-    broadcastWindowStartDate: string;
-    canAudioSync: boolean;
-    clientMetaData: object; //{episodeId: "5fe9f2f5e4b02b2f9c166481"}
-    contentId: string;
-    contentVersion: number;
-    crowdSync: boolean;
-    episodeCode: string;
-    events: [];
-    interactionTiming: string;
-    openDate: number;
-    state: string;
-    stats: object;
-    timingVersion: number
-    totalScore: number;
-    version: number;
-  }
+  import type { EpisodeType, EpisodeDataType } from './types/Episode.ts';
 
   let episodes: EpisodeType[] = [];
 
-  // type AnswerType = {
-  //     correctAnswer: string;
-  //     title: string;
-  // }
-
-  // const answers: Array<AnswerType> = [
-  //     {correctAnswer: '4', title: 'Haha'},
-  // ];
-
   let selectedEpisode: string = '';
-  let episodeData: EpisodeDataType;
+  let episodeData: EpisodeDataType = {};
 
-  async function fetchEpisode() {
-    console.log(selectedEpisode);
+  async function fetchEpisode(): Promise<void> {
     if (selectedEpisode !== '') {
       episodeData = (await http.get(`/${selectedEpisode}.json`)).data;
+    } else {
+      episodeData = {};
     }
   }
 
-  async function getData() {
+  async function getData(): Promise<void> {
     episodes = (await http.get('/episodes.json')).data;
-
-    console.log(episodes);
   }
 
   function parseTimestamp(timestamp: number): string {
@@ -73,7 +33,7 @@
 <main>
     <label for="episodes">Which episode:</label>
     <select name="episodes" id="episodes" bind:value={selectedEpisode} on:change="{() => fetchEpisode()}">
-      <option value={null}>Selecteer</option>
+      <option value={''}>Selecteer</option>
       {#each episodes as episode}
         <option value={episode.episodeCode}>
           {parseTimestamp(episode.broadcastWindowStartDate)}
@@ -91,7 +51,7 @@
   @mixin prefix($property, $value, $vendors: webkit moz ms o khtml, $default: true) {
     @if $vendors {
       @each $vendor in $vendors {
-          #{"-" + $vendor + "-" + $property}: #{$value};
+          #{"-" + $vendor + "-" + $property}: #{$value};  
       }
     }
     @if $default {
