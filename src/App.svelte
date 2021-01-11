@@ -42,7 +42,7 @@
       {/each}
     </select>
     {#if episodeData.events}
-      <div>
+      <div class="answers">
         {#each episodeData.events as event}
           {#if event.content}
             <Answer content={event.content}></Answer>
@@ -66,6 +66,36 @@
     }
     @if $default {
         #{$property}: #{$value};
+    }
+  }
+
+  @mixin calc($property, $expression) {
+      #{$property}: -moz-calc(#{$expression});
+      #{$property}: -webkit-calc(#{$expression});
+      #{$property}: calc(#{$expression});
+  }
+
+  @mixin media($size) {
+    @if ($size == "xs") {
+      @media only screen and (max-width: 480px) {
+        @content;
+      }
+    } @else if ($size == "s") {
+      @media only screen and (max-width: 768px) {
+        @content;
+      }
+    } @else if ($size == "m") {
+      @media only screen and (max-width: 980px) {
+        @content;
+      }
+    } @else if ($size == "l") {
+      @media only screen and (max-width: 1200px) {
+        @content;
+      }
+    } @else if ($size == "xl") {
+      @media only screen and (min-width: 1200px) {
+        @content;
+      }
     }
   }
 
@@ -110,6 +140,19 @@
   @media (min-width: 640px) {
     main {
       max-width: none;
+    }
+  }
+
+  .answers {
+    width: 100%;
+    clear: both;
+    display: block;
+
+    .answer {
+      float: left;
+      display: block;
+      margin: 0 0 50px 0;
+      padding: 0;
     }
   }
 
