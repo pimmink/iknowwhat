@@ -31,6 +31,7 @@
 </script>
 
 <main>
+    <h1>I know what.</h1>
     <label for="episodes">Which episode:</label>
     <select name="episodes" id="episodes" bind:value={selectedEpisode} on:change="{() => fetchEpisode()}">
       <option value={''}>Selecteer</option>
