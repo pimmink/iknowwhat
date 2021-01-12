@@ -1,54 +1,53 @@
 <script lang="ts">
-  import dayjs from 'dayjs';
-	import Answer from './components/Answer.svelte';
-	import * as decryptLib from './lib/decrypt.ts';
-  import http from './lib/http.ts';
+    import dayjs from 'dayjs';
+    import Answer from './components/Answer.svelte';
+    import http from './lib/http.ts';
 
-  import type { EpisodeType, EpisodeDataType } from './types/Episode.ts';
+    import type {EpisodeDataType, EpisodeType} from './types/Episode.ts';
 
-  let episodes: EpisodeType[] = [];
+    let episodes: EpisodeType[] = [];
 
-  let selectedEpisode: string = '';
-  let episodeData: EpisodeDataType = {};
+    let selectedEpisode: string = '';
+    let episodeData: EpisodeDataType = {};
 
-  async function fetchEpisode(): Promise<void> {
-    if (selectedEpisode !== '') {
-      episodeData = (await http.get(`/${selectedEpisode}.json`)).data;
-    } else {
-      episodeData = {};
+    async function fetchEpisode(): Promise<void> {
+        if (selectedEpisode !== '') {
+            episodeData = (await http.get(`/${selectedEpisode}.json`)).data;
+        } else {
+            episodeData = {};
+        }
     }
-  }
 
-  async function getData(): Promise<void> {
-    episodes = (await http.get('/episodes.json')).data;
-  }
+    async function getData(): Promise<void> {
+        episodes = (await http.get('/episodes.json')).data;
+    }
 
-  function parseTimestamp(timestamp: number): string {
-    return dayjs(timestamp).format('DD MMMM YYYY HH:mm');
-  }
+    function parseTimestamp(timestamp: number): string {
+        return dayjs(timestamp).format('DD MMMM YYYY HH:mm');
+    }
 
-  getData();
+    getData();
 </script>
 
 <main>
     <h1>I know what.</h1>
     <label for="episodes">Which episode:</label>
     <select name="episodes" id="episodes" bind:value={selectedEpisode} on:change="{() => fetchEpisode()}">
-      <option value={''}>Selecteer</option>
-      {#each episodes as episode}
-        <option value={episode.episodeCode}>
-          {parseTimestamp(episode.broadcastWindowStartDate)}
-        </option>
-      {/each}
+        <option value={''}>Selecteer</option>
+        {#each episodes as episode}
+            <option value={episode.episodeCode}>
+                {parseTimestamp(episode.broadcastWindowStartDate)}
+            </option>
+        {/each}
     </select>
     {#if episodeData.events}
-      <div class="answers">
-        {#each episodeData.events as event}
-          {#if event.content}
-            <Answer content={event.content}></Answer>
-          {/if}
-        {/each}
-      </div>
+        <div class="answerblocks">
+            {#each episodeData.events as event}
+                {#if event.content}
+                    <Answer content={event.content}></Answer>
+                {/if}
+            {/each}
+        </div>
     {/if}
     <!-- <pre>
       {JSON.stringify(episodeData, null, 2)}
@@ -56,12 +55,12 @@
 </main>
 
 <style type="text/scss">
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
   @mixin prefix($property, $value, $vendors: webkit moz ms o khtml, $default: true) {
     @if $vendors {
       @each $vendor in $vendors {
-          #{"-" + $vendor + "-" + $property}: #{$value};  
+          #{"-" + $vendor + "-" + $property}: #{$value};
       }
     }
     @if $default {
@@ -102,6 +101,7 @@
   $grey: #5E5E5E;
   $lightgrey: #F2F2F2;
   $orange: #ff5218;
+  $white: #FFF;
 
   $gradientOrange: #ff793d, #f43e01;
 
@@ -116,13 +116,15 @@
     background-repeat: no-repeat;
     background-position: center bottom;
     color: $grey;
+    background-attachment: fixed;
   }
+
   main {
     text-align: center;
     padding: 0;
     max-width: 240px;
     margin: 0 auto;
-    font-family:  $font;
+    font-family: $font;
   }
 
   h1, h2, h3, h4, h5, h6 {
@@ -143,16 +145,101 @@
     }
   }
 
-  .answers {
+  :global(.answerblocks) {
     width: 100%;
     clear: both;
     display: block;
+    max-width: 960px;
+    position: relative;
+    margin: 0 auto;
+    padding: 0;
 
-    .answer {
+
+    :global(.answerblock) {
       float: left;
       display: block;
       margin: 0 0 50px 0;
-      padding: 0;
+      @include calc(width, '50% - 25px');
+      background-color: rgba(255, 255, 255, 0.9);
+      height: 250px;
+      padding: 25px;
+      box-sizing: border-box;
+      border-radius: 15px;
+
+      :global(h3.question) {
+        font-weight: 500;
+        font-size: 18px;
+        text-align: left;
+        margin: 0 0 15px 0;
+      }
+
+      :global(.options) {
+        width: 100%;
+
+        :global(p.option) {
+          display: flex;
+          text-align: left;
+          align-items: center;
+          margin: 10px 0;
+
+          :global(span.code) {
+            width: 25px;
+            height: 25px;
+            background-color: #F2F2F2;
+            border-radius: 100%;
+            text-align: center;
+
+            &.answer {
+              background-color: $orange;
+              color: $white;
+            }
+          }
+
+          :global(.optiontext) {
+            @include calc(width, '100% - 25px');
+            padding-left: 25px;
+          }
+        }
+      }
+
+      &:nth-child(odd) {
+        clear: left;
+      }
+
+      &:nth-child(even) {
+        clear: right;
+        float: right;
+      }
+
+      @include media('s') {
+        width: 100%;
+        &:nth-child(odd) {
+          margin-left: unset;
+        }
+        &:nth-child(even) {
+          margin-right: unset;
+        }
+
+      }
+    }
+
+    @include media('xl') {
+      max-width: 1200px;
+    }
+    @include media('l') {
+      max-width: 960px;
+    }
+    @include media('m') {
+      max-width: 768px;
+      padding: 0 10px;
+    }
+    @include media('s') {
+      max-width: 480px;
+      padding: 0 15px
+    }
+    @include media('xs') {
+      width: 320px;
+      padding: 0 15px;
     }
   }
 
