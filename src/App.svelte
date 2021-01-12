@@ -165,6 +165,8 @@
       padding: 25px;
       box-sizing: border-box;
       border-radius: 15px;
+      @include prefix(box-shadow, 0 0 97px 0 rgba($black, 0.41), webkit moz);
+
 
       :global(h3.question) {
         font-weight: 500;
