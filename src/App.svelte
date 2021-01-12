@@ -43,8 +43,8 @@
     {#if episodeData.events}
         <div class="answerblocks">
             {#each episodeData.events as event}
-                {#if event.content}
-                    <Answer content={event.content}></Answer>
+                {#if event.type !== 'ROUND'}
+                    <Answer content={event.content} type={event.type}></Answer>
                 {/if}
             {/each}
         </div>

@@ -1,14 +1,34 @@
 <script type="ts">
     import type { Event } from './../types/Episode.ts';
     export let content: Event;
+    export let type: string;
+
+    let sortedAnswers = content.answers?.map((answer, i) => {
+      if(type === 'PAIRS') {
+        const answerData = answer;
+          answerData.text = `${answer.text} - ${answer.match}`;
+        return answerData;
+      }
+      if(type === 'ORDER') {
+        const answerData = content.answers
+          .find(({ code }) => code === content.correctAnswer.split(',')[i]);
+        return answerData;
+      }
+      return answer;
+    });
 </script>
 
 <div class="answerblock">
     <h3 class="question">{content.text}</h3>
     <div class="options">
-        {#each content.answers as answer}
+        {#each sortedAnswers as answer}
             <p class="option">
-                <span class="code {content.correctAnswer.includes(answer.code) ? 'answer' : ''}">{answer.code}</span> <span class="optiontext">{answer.text}</span>
+                <span class="code {content.correctAnswer.includes(answer.code) ? 'answer' : ''}">
+                    {answer.code}
+                </span>
+                <span class="optiontext">
+                  {answer.text}
+                </span>
             </p>
         {/each}
         <!-- <div class="option answer"><span class="code">B</span> Worst</div> -->
