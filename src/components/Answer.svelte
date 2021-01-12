@@ -8,7 +8,7 @@
     <div class="options">
         {#each content.answers as answer}
             <p class="option">
-                <span class="code {content.correctAnswer == answer.code ? 'answer' : ''}">{answer.code}</span> <span class="optiontext">{answer.text}</span>
+                <span class="code {content.correctAnswer.includes(answer.code) ? 'answer' : ''}">{answer.code}</span> <span class="optiontext">{answer.text}</span>
             </p>
         {/each}
         <!-- <div class="option answer"><span class="code">B</span> Worst</div> -->
