@@ -1,0 +1,2529 @@
+{
+    "episodeCode": "20210116",
+    "blocks": [
+      {
+        "clientMetaData": {},
+        "duration": 1982000
+      },
+      {
+        "clientMetaData": {},
+        "duration": 2351000
+      }
+    ],
+    "events": [
+      {
+        "eventId": "60003acce4b00ec0e6fd530a",
+        "type": "TRIVIA",
+        "offset": 432000,
+        "content": {
+          "text": "Welke hobby oefen je uit met behulp van deze paddenstoel?",
+          "correctAnswer": "C",
+          "score": 2,
+          "answers": [
+            {
+              "code": "A",
+              "text": "Quilten"
+            },
+            {
+              "code": "B",
+              "text": "Haken"
+            },
+            {
+              "code": "C",
+              "text": "Punniken"
+            }
+          ],
+          "eventProperties": {}
+        },
+        "phases": [
+          {
+            "name": "SHOW",
+            "offset": 432000
+          },
+          {
+            "name": "START",
+            "offset": 437000
+          },
+          {
+            "name": "STOP",
+            "offset": 441000
+          },
+          {
+            "name": "RESULTS",
+            "offset": 453000
+          },
+          {
+            "name": "FINISHED",
+            "offset": 459000
+          }
+        ],
+        "weekGameBlockNr": 0
+      },
+      {
+        "eventId": "60003acce4b00ec0e6fd530b",
+        "type": "TRIVIA",
+        "offset": 476000,
+        "content": {
+          "text": "Welk ezelsbruggetje is handig als je een wiskundige som moet oplossen?",
+          "correctAnswer": "B",
+          "score": 2,
+          "answers": [
+            {
+              "code": "A",
+              "text": "Eet Alle Dagen Grote Borden Erwtensoep"
+            },
+            {
+              "code": "B",
+              "text": "Hoe Moeten We Van Die Onvoldoendes Afkomen?"
+            },
+            {
+              "code": "C",
+              "text": "Mijn Goudvis Bas Eet Haast Nooit Chocolade Pudding"
+            }
+          ],
+          "eventProperties": {}
+        },
+        "phases": [
+          {
+            "name": "SHOW",
+            "offset": 476000
+          },
+          {
+            "name": "START",
+            "offset": 489000
+          },
+          {
+            "name": "STOP",
+            "offset": 493000
+          },
+          {
+            "name": "RESULTS",
+            "offset": 505000
+          },
+          {
+            "name": "FINISHED",
+            "offset": 512000
+          }
+        ],
+        "weekGameBlockNr": 0
+      },
+      {
+        "eventId": "60003acce4b00ec0e6fd530c",
+        "type": "TRIVIA",
+        "offset": 656000,
+        "content": {
+          "text": "Welk onderdeel van cheerleading bestaat uit een aaneenschakeling van turnoefeningen?",
+          "correctAnswer": "C",
+          "score": 2,
+          "answers": [
+            {
+              "code": "A",
+              "text": "Twirling"
+            },
+            {
+              "code": "B",
+              "text": "Voltigeren"
+            },
+            {
+              "code": "C",
+              "text": "Tumbling"
+            }
+          ],
+          "eventProperties": {}
+        },
+        "phases": [
+          {
+            "name": "SHOW",
+            "offset": 656000
+          },
+          {
+            "name": "START",
+            "offset": 666000
+          },
+          {
+            "name": "STOP",
+            "offset": 670000
+          },
+          {
+            "name": "RESULTS",
+            "offset": 687000
+          },
+          {
+            "name": "FINISHED",
+            "offset": 696000
+          }
+        ],
+        "weekGameBlockNr": 0
+      },
+      {
+        "eventId": "60003acce4b00ec0e6fd530d",
+        "type": "TRIVIA",
+        "offset": 714000,
+        "content": {
+          "text": "Welk eiland ligt in of bij de stad New York? Er zijn meerdere antwoorden goed.",
+          "correctAnswer": "A,B,C",
+          "score": 2,
+          "answers": [
+            {
+              "code": "A",
+              "text": "Liberty Island"
+            },
+            {
+              "code": "B",
+              "text": "Staten Island"
+            },
+            {
+              "code": "C",
+              "text": "Ellis Island"
+            },
+            {
+              "code": "D",
+              "text": "Alcatraz Island"
+            }
+          ],
+          "eventProperties": {}
+        },
+        "phases": [
+          {
+            "name": "SHOW",
+            "offset": 714000
+          },
+          {
+            "name": "START",
+            "offset": 725000
+          },
+          {
+            "name": "STOP",
+            "offset": 740000
+          },
+          {
+            "name": "RESULTS",
+            "offset": 755000
+          },
+          {
+            "name": "FINISHED",
+            "offset": 762000
+          }
+        ],
+        "weekGameBlockNr": 0
+      },
+      {
+        "eventId": "60003acce4b00ec0e6fd530e",
+        "type": "TRIVIA",
+        "offset": 778000,
+        "content": {
+          "text": "Wat wordt er bedoeld met 'Ben je van de trap gevallen?'?",
+          "correctAnswer": "A",
+          "score": 2,
+          "answers": [
+            {
+              "code": "A",
+              "text": "Ben je naar de kapper geweest?"
+            },
+            {
+              "code": "B",
+              "text": "Ben je gek geworden?"
+            },
+            {
+              "code": "C",
+              "text": "Wat ben jij vroeg uit de veren?"
+            }
+          ],
+          "eventProperties": {}
+        },
+        "phases": [
+          {
+            "name": "SHOW",
+            "offset": 778000
+          },
+          {
+            "name": "START",
+            "offset": 785000
+          },
+          {
+            "name": "STOP",
+            "offset": 789000
+          },
+          {
+            "name": "RESULTS",
+            "offset": 794000
+          },
+          {
+            "name": "FINISHED",
+            "offset": 799000
+          }
+        ],
+        "weekGameBlockNr": 0
+      },
+      {
+        "eventId": "60003acce4b00ec0e6fd530f",
+        "type": "TRIVIA",
+        "offset": 812000,
+        "content": {
+          "text": "Op welke foto zie je een taart die de naam van een woud in Duitsland bevat?",
+          "correctAnswer": "C",
+          "score": 2,
+          "answers": [
+            {
+              "code": "A",
+              "text": "Foto A"
+            },
+            {
+              "code": "B",
+              "text": "Foto B"
+            },
+            {
+              "code": "C",
+              "text": "Foto C"
+            }
+          ],
+          "eventProperties": {}
+        },
+        "phases": [
+          {
+            "name": "SHOW",
+            "offset": 812000
+          },
+          {
+            "name": "START",
+            "offset": 817000
+          },
+          {
+            "name": "STOP",
+            "offset": 821000
+          },
+          {
+            "name": "RESULTS",
+            "offset": 826000
+          },
+          {
+            "name": "FINISHED",
+            "offset": 832000
+          }
+        ],
+        "weekGameBlockNr": 0
+      },
+      {
+        "eventId": "60003acce4b00ec0e6fd5310",
+        "type": "TRIVIA",
+        "offset": 851000,
+        "content": {
+          "text": "Zet de dichtvormen op volgorde van het aantal versregels waaruit ze bestaan, en begin met de dichtvorm met de minste regels.",
+          "correctAnswer": "C,A,B",
+          "score": 2,
+          "answers": [
+            {
+              "code": "A",
+              "text": "Limerick"
+            },
+            {
+              "code": "B",
+              "text": "Sonnet"
+            },
+            {
+              "code": "C",
+              "text": "Haiku"
+            }
+          ],
+          "eventProperties": {}
+        },
+        "phases": [
+          {
+            "name": "SHOW",
+            "offset": 851000
+          },
+          {
+            "name": "START",
+            "offset": 861000
+          },
+          {
+            "name": "STOP",
+            "offset": 871000
+          },
+          {
+            "name": "RESULTS",
+            "offset": 884000
+          },
+          {
+            "name": "FINISHED",
+            "offset": 908000
+          }
+        ],
+        "weekGameBlockNr": 0
+      },
+      {
+        "eventId": "60003acce4b00ec0e6fd5311",
+        "type": "TRIVIA",
+        "offset": 982000,
+        "content": {
+          "text": "Welke tekst komt uit het Beatlesnummer 'I am the walrus'?",
+          "correctAnswer": "B",
+          "score": 2,
+          "answers": [
+            {
+              "code": "A",
+              "text": "Ob-la-di, ob-la-da"
+            },
+            {
+              "code": "B",
+              "text": "Goo goo goo joob"
+            },
+            {
+              "code": "C",
+              "text": "Na na na, na na na na"
+            }
+          ],
+          "eventProperties": {}
+        },
+        "phases": [
+          {
+            "name": "SHOW",
+            "offset": 982000
+          },
+          {
+            "name": "START",
+            "offset": 995000
+          },
+          {
+            "name": "STOP",
+            "offset": 999000
+          },
+          {
+            "name": "RESULTS",
+            "offset": 1022000
+          },
+          {
+            "name": "FINISHED",
+            "offset": 1042000
+          }
+        ],
+        "weekGameBlockNr": 0
+      },
+      {
+        "eventId": "60003acce4b00ec0e6fd5312",
+        "type": "TRIVIA",
+        "offset": 1051000,
+        "content": {
+          "text": "Van de hand van welke meester is het schilderij 'De anatomische les van dr. Nicolaes Tulp'?",
+          "correctAnswer": "A",
+          "score": 2,
+          "answers": [
+            {
+              "code": "A",
+              "text": "Rembrandt van Rijn"
+            },
+            {
+              "code": "B",
+              "text": "Frans Hals"
+            },
+            {
+              "code": "C",
+              "text": "Johannes Vermeer"
+            }
+          ],
+          "eventProperties": {}
+        },
+        "phases": [
+          {
+            "name": "SHOW",
+            "offset": 1051000
+          },
+          {
+            "name": "START",
+            "offset": 1058000
+          },
+          {
+            "name": "STOP",
+            "offset": 1062000
+          },
+          {
+            "name": "RESULTS",
+            "offset": 1067000
+          },
+          {
+            "name": "FINISHED",
+            "offset": 1076000
+          }
+        ],
+        "weekGameBlockNr": 0
+      },
+      {
+        "eventId": "60003acce4b00ec0e6fd5313",
+        "type": "TRIVIA",
+        "offset": 1100000,
+        "content": {
+          "text": "Krantenkop uit juli 2020: 'Hagia Sofia na 86 jaar weer in gebruik als ... '",
+          "correctAnswer": "B",
+          "score": 2,
+          "answers": [
+            {
+              "code": "A",
+              "text": "Kathedraal"
+            },
+            {
+              "code": "B",
+              "text": "Moskee"
+            },
+            {
+              "code": "C",
+              "text": "Museum"
+            }
+          ],
+          "eventProperties": {}
+        },
+        "phases": [
+          {
+            "name": "SHOW",
+            "offset": 1100000
+          },
+          {
+            "name": "START",
+            "offset": 1106000
+          },
+          {
+            "name": "STOP",
+            "offset": 1110000
+          },
+          {
+            "name": "RESULTS",
+            "offset": 1118000
+          },
+          {
+            "name": "FINISHED",
+            "offset": 1133000
+          }
+        ],
+        "weekGameBlockNr": 0
+      },
+      {
+        "eventId": "60003acce4b00ec0e6fd5314",
+        "type": "ROUND",
+        "offset": 1172000,
+        "phases": [
+          {
+            "name": "RESULTS",
+            "offset": 1172000
+          },
+          {
+            "name": "FINISHED",
+            "offset": 1190000
+          }
+        ],
+        "weekGameBlockNr": 0
+      },
+      {
+        "eventId": "60003acce4b00ec0e6fd5315",
+        "type": "TRIVIA",
+        "offset": 1213000,
+        "content": {
+          "text": "De naam van welke Amerikaans overheidsdienst is ook een afkorting voor een seksuele relatie zonder verplichtingen?",
+          "correctAnswer": "B",
+          "score": 2,
+          "answers": [
+            {
+              "code": "A",
+              "text": "CIA"
+            },
+            {
+              "code": "B",
+              "text": "NSA"
+            },
+            {
+              "code": "C",
+              "text": "FBI"
+            }
+          ],
+          "eventProperties": {}
+        },
+        "phases": [
+          {
+            "name": "SHOW",
+            "offset": 1213000
+          },
+          {
+            "name": "START",
+            "offset": 1229000
+          },
+          {
+            "name": "STOP",
+            "offset": 1233000
+          },
+          {
+            "name": "RESULTS",
+            "offset": 1248000
+          },
+          {
+            "name": "FINISHED",
+            "offset": 1254000
+          }
+        ],
+        "weekGameBlockNr": 0
+      },
+      {
+        "eventId": "60003acce4b00ec0e6fd5316",
+        "type": "TRIVIA",
+        "offset": 1346000,
+        "content": {
+          "text": "Hoe wordt de knal genoemd die je hoort als een straaljager door de geluidsbarrière gaat?",
+          "correctAnswer": "C",
+          "score": 2,
+          "answers": [
+            {
+              "code": "A",
+              "text": "Slap shot"
+            },
+            {
+              "code": "B",
+              "text": "Big bang"
+            },
+            {
+              "code": "C",
+              "text": "Sonic boom"
+            }
+          ],
+          "eventProperties": {}
+        },
+        "phases": [
+          {
+            "name": "SHOW",
+            "offset": 1346000
+          },
+          {
+            "name": "START",
+            "offset": 1354000
+          },
+          {
+            "name": "STOP",
+            "offset": 1358000
+          },
+          {
+            "name": "RESULTS",
+            "offset": 1373000
+          },
+          {
+            "name": "FINISHED",
+            "offset": 1379000
+          }
+        ],
+        "weekGameBlockNr": 0
+      },
+      {
+        "eventId": "60003acce4b00ec0e6fd5317",
+        "type": "TRIVIA",
+        "offset": 1382000,
+        "content": {
+          "text": "De term 'butler' is ontleend aan het Franse 'bouteillier', de persoon die verantwoordelijk was voor het schenken van wijn.",
+          "correctAnswer": "A",
+          "score": 2,
+          "answers": [
+            {
+              "code": "A",
+              "text": "Waar"
+            },
+            {
+              "code": "B",
+              "text": "Niet waar"
+            }
+          ],
+          "eventProperties": {}
+        },
+        "phases": [
+          {
+            "name": "SHOW",
+            "offset": 1382000
+          },
+          {
+            "name": "START",
+            "offset": 1389000
+          },
+          {
+            "name": "STOP",
+            "offset": 1393000
+          },
+          {
+            "name": "RESULTS",
+            "offset": 1397000
+          },
+          {
+            "name": "FINISHED",
+            "offset": 1402000
+          }
+        ],
+        "weekGameBlockNr": 0
+      },
+      {
+        "eventId": "60003acce4b00ec0e6fd5318",
+        "type": "TRIVIA",
+        "offset": 1415000,
+        "content": {
+          "text": "Welke plaatsnaam spreek je in het Standaardnederlands uit zoals je hem schrijft?",
+          "correctAnswer": "B",
+          "score": 2,
+          "answers": [
+            {
+              "code": "A",
+              "text": "Foto A"
+            },
+            {
+              "code": "B",
+              "text": "Foto B"
+            },
+            {
+              "code": "C",
+              "text": "Foto C"
+            },
+            {
+              "code": "D",
+              "text": "Foto D"
+            }
+          ],
+          "eventProperties": {}
+        },
+        "phases": [
+          {
+            "name": "SHOW",
+            "offset": 1415000
+          },
+          {
+            "name": "START",
+            "offset": 1423000
+          },
+          {
+            "name": "STOP",
+            "offset": 1428000
+          },
+          {
+            "name": "RESULTS",
+            "offset": 1434000
+          },
+          {
+            "name": "FINISHED",
+            "offset": 1444000
+          }
+        ],
+        "weekGameBlockNr": 0
+      },
+      {
+        "eventId": "60003acce4b00ec0e6fd5319",
+        "type": "TRIVIA",
+        "offset": 1475000,
+        "content": {
+          "text": "Wie is de componist van deze beroemde filmmuziek?",
+          "correctAnswer": "C",
+          "score": 2,
+          "answers": [
+            {
+              "code": "A",
+              "text": "Hans Zimmer"
+            },
+            {
+              "code": "B",
+              "text": "John Williams"
+            },
+            {
+              "code": "C",
+              "text": "Ennio Morricone"
+            }
+          ],
+          "eventProperties": {}
+        },
+        "phases": [
+          {
+            "name": "SHOW",
+            "offset": 1475000
+          },
+          {
+            "name": "START",
+            "offset": 1482000
+          },
+          {
+            "name": "STOP",
+            "offset": 1486000
+          },
+          {
+            "name": "RESULTS",
+            "offset": 1490000
+          },
+          {
+            "name": "FINISHED",
+            "offset": 1516000
+          }
+        ],
+        "weekGameBlockNr": 0
+      },
+      {
+        "eventId": "60003acce4b00ec0e6fd531a",
+        "type": "TRIVIA",
+        "offset": 1528000,
+        "content": {
+          "text": "Welke vraag hoort bij het antwoord 'pijpfitter'?",
+          "correctAnswer": "B",
+          "score": 2,
+          "answers": [
+            {
+              "code": "A",
+              "text": "Wie is opgeleid om kerkorgels te stemmen?"
+            },
+            {
+              "code": "B",
+              "text": "Wie legt beroepsmatig gas- en waterleidingen aan?"
+            },
+            {
+              "code": "C",
+              "text": "Wat is de officiële naam voor de gulp in een boxershort?"
+            }
+          ],
+          "eventProperties": {}
+        },
+        "phases": [
+          {
+            "name": "SHOW",
+            "offset": 1528000
+          },
+          {
+            "name": "START",
+            "offset": 1540000
+          },
+          {
+            "name": "STOP",
+            "offset": 1544000
+          },
+          {
+            "name": "RESULTS",
+            "offset": 1553000
+          },
+          {
+            "name": "FINISHED",
+            "offset": 1556000
+          }
+        ],
+        "weekGameBlockNr": 0
+      },
+      {
+        "eventId": "60003acce4b00ec0e6fd531b",
+        "type": "TRIVIA",
+        "offset": 1589000,
+        "content": {
+          "text": "Het kapsel van welke persoon is opgenomen in de Dikke Van Dale?",
+          "correctAnswer": "C",
+          "score": 2,
+          "answers": [
+            {
+              "code": "A",
+              "text": "Twiggy"
+            },
+            {
+              "code": "B",
+              "text": "Farrah Fawcett"
+            },
+            {
+              "code": "C",
+              "text": "Prinses Beatrix"
+            }
+          ],
+          "eventProperties": {}
+        },
+        "phases": [
+          {
+            "name": "SHOW",
+            "offset": 1589000
+          },
+          {
+            "name": "START",
+            "offset": 1596000
+          },
+          {
+            "name": "STOP",
+            "offset": 1600000
+          },
+          {
+            "name": "RESULTS",
+            "offset": 1605000
+          },
+          {
+            "name": "FINISHED",
+            "offset": 1614000
+          }
+        ],
+        "weekGameBlockNr": 0
+      },
+      {
+        "eventId": "60003acce4b00ec0e6fd531c",
+        "type": "TRIVIA",
+        "offset": 1635000,
+        "content": {
+          "text": "Zet de gebeurtenissen in de geschiedenis van de Nederlandse televisie in chronologische volgorde.",
+          "correctAnswer": "B,A,C",
+          "score": 2,
+          "answers": [
+            {
+              "code": "A",
+              "text": "Teletekst van start"
+            },
+            {
+              "code": "B",
+              "text": "Eerste Ster-reclameblok"
+            },
+            {
+              "code": "C",
+              "text": "Eerste commerciële zender"
+            }
+          ],
+          "eventProperties": {}
+        },
+        "phases": [
+          {
+            "name": "SHOW",
+            "offset": 1635000
+          },
+          {
+            "name": "START",
+            "offset": 1646000
+          },
+          {
+            "name": "STOP",
+            "offset": 1656000
+          },
+          {
+            "name": "RESULTS",
+            "offset": 1674000
+          },
+          {
+            "name": "FINISHED",
+            "offset": 1680000
+          }
+        ],
+        "weekGameBlockNr": 0
+      },
+      {
+        "eventId": "60003acce4b00ec0e6fd531d",
+        "type": "TRIVIA",
+        "offset": 1759000,
+        "content": {
+          "text": "Hoe heet de Afro-Surinaamse religie waarbij magische rituelen een grote rol spelen?",
+          "correctAnswer": "C",
+          "score": 2,
+          "answers": [
+            {
+              "code": "A",
+              "text": "Goenagoena"
+            },
+            {
+              "code": "B",
+              "text": "Matsoe Matsoe"
+            },
+            {
+              "code": "C",
+              "text": "Winti"
+            },
+            {
+              "code": "D",
+              "text": "Wicca"
+            }
+          ],
+          "eventProperties": {}
+        },
+        "phases": [
+          {
+            "name": "SHOW",
+            "offset": 1759000
+          },
+          {
+            "name": "START",
+            "offset": 1770000
+          },
+          {
+            "name": "STOP",
+            "offset": 1775000
+          },
+          {
+            "name": "RESULTS",
+            "offset": 1811000
+          },
+          {
+            "name": "FINISHED",
+            "offset": 1817000
+          }
+        ],
+        "weekGameBlockNr": 0
+      },
+      {
+        "eventId": "60003acce4b00ec0e6fd531e",
+        "type": "TRIVIA",
+        "offset": 1821000,
+        "content": {
+          "text": "Welk personage uit Suske & Wiske heeft dezelfde naam als een streekbier uit België?",
+          "correctAnswer": "A",
+          "score": 2,
+          "answers": [
+            {
+              "code": "A",
+              "text": "Lambiek"
+            },
+            {
+              "code": "B",
+              "text": "Barabas"
+            },
+            {
+              "code": "C",
+              "text": "Sidonia"
+            }
+          ],
+          "eventProperties": {}
+        },
+        "phases": [
+          {
+            "name": "SHOW",
+            "offset": 1821000
+          },
+          {
+            "name": "START",
+            "offset": 1828000
+          },
+          {
+            "name": "STOP",
+            "offset": 1832000
+          },
+          {
+            "name": "RESULTS",
+            "offset": 1837000
+          },
+          {
+            "name": "FINISHED",
+            "offset": 1844000
+          }
+        ],
+        "weekGameBlockNr": 0
+      },
+      {
+        "eventId": "60003acce4b00ec0e6fd531f",
+        "type": "ROUND",
+        "offset": 1864000,
+        "phases": [
+          {
+            "name": "RESULTS",
+            "offset": 1864000
+          },
+          {
+            "name": "FINISHED",
+            "offset": 1878000
+          }
+        ],
+        "weekGameBlockNr": 0
+      },
+      {
+        "eventId": "60003acce4b00ec0e6fd5321",
+        "type": "TRIVIA",
+        "offset": 2005000,
+        "content": {
+          "text": "Op welke foto zie je de zogenaamde 'pornosnor'?",
+          "correctAnswer": "C",
+          "score": 2,
+          "answers": [
+            {
+              "code": "A",
+              "text": "Foto A"
+            },
+            {
+              "code": "B",
+              "text": "Foto B"
+            },
+            {
+              "code": "C",
+              "text": "Foto C"
+            }
+          ],
+          "eventProperties": {}
+        },
+        "phases": [
+          {
+            "name": "SHOW",
+            "offset": 2005000
+          },
+          {
+            "name": "START",
+            "offset": 2010000
+          },
+          {
+            "name": "STOP",
+            "offset": 2014000
+          },
+          {
+            "name": "RESULTS",
+            "offset": 2030000
+          },
+          {
+            "name": "FINISHED",
+            "offset": 2037000
+          }
+        ],
+        "weekGameBlockNr": 0
+      },
+      {
+        "eventId": "60003acce4b00ec0e6fd5322",
+        "type": "PAIRS",
+        "offset": 2062000,
+        "content": {
+          "text": "Welke artiest hoort bij welk alter ego?",
+          "correctAnswer": "3,1,2",
+          "score": 2,
+          "answers": [
+            {
+              "code": "1",
+              "text": "Eminem",
+              "match": "Ziggy Stardust"
+            },
+            {
+              "code": "2",
+              "text": "David Bowie",
+              "match": "TAFKAP"
+            },
+            {
+              "code": "3",
+              "text": "Prince",
+              "match": "Slim Shady"
+            }
+          ],
+          "eventProperties": {}
+        },
+        "phases": [
+          {
+            "name": "SHOW",
+            "offset": 2062000
+          },
+          {
+            "name": "START",
+            "offset": 2074000
+          },
+          {
+            "name": "STOP",
+            "offset": 2094000
+          },
+          {
+            "name": "RESULTS",
+            "offset": 2107000
+          },
+          {
+            "name": "FINISHED",
+            "offset": 2121000
+          }
+        ],
+        "weekGameBlockNr": 0
+      },
+      {
+        "eventId": "60003acce4b00ec0e6fd5323",
+        "type": "TRIVIA",
+        "offset": 2174000,
+        "content": {
+          "text": "Welk hondenras is oorspronkelijk gefokt om dassen uit hun holen te jagen?",
+          "correctAnswer": "B",
+          "score": 2,
+          "answers": [
+            {
+              "code": "A",
+              "text": "Poedel"
+            },
+            {
+              "code": "B",
+              "text": "Teckel"
+            },
+            {
+              "code": "C",
+              "text": "Golden retriever"
+            }
+          ],
+          "eventProperties": {}
+        },
+        "phases": [
+          {
+            "name": "SHOW",
+            "offset": 2174000
+          },
+          {
+            "name": "START",
+            "offset": 2181000
+          },
+          {
+            "name": "STOP",
+            "offset": 2185000
+          },
+          {
+            "name": "RESULTS",
+            "offset": 2190000
+          },
+          {
+            "name": "FINISHED",
+            "offset": 2204000
+          }
+        ],
+        "weekGameBlockNr": 0
+      },
+      {
+        "eventId": "60003acce4b00ec0e6fd5324",
+        "type": "TRIVIA",
+        "offset": 2234000,
+        "content": {
+          "text": "Wat is een synoniem voor 'nonsens'? Er zijn meerdere antwoorden goed.",
+          "correctAnswer": "A,C,D",
+          "score": 2,
+          "answers": [
+            {
+              "code": "A",
+              "text": "Lariekoek"
+            },
+            {
+              "code": "B",
+              "text": "Billenkoek"
+            },
+            {
+              "code": "C",
+              "text": "Kletskoek"
+            },
+            {
+              "code": "D",
+              "text": "Lulkoek"
+            }
+          ],
+          "eventProperties": {}
+        },
+        "phases": [
+          {
+            "name": "SHOW",
+            "offset": 2234000
+          },
+          {
+            "name": "START",
+            "offset": 2241000
+          },
+          {
+            "name": "STOP",
+            "offset": 2256000
+          },
+          {
+            "name": "RESULTS",
+            "offset": 2263000
+          },
+          {
+            "name": "FINISHED",
+            "offset": 2270000
+          }
+        ],
+        "weekGameBlockNr": 0
+      },
+      {
+        "eventId": "60003acce4b00ec0e6fd5325",
+        "type": "TRIVIA",
+        "offset": 2306000,
+        "content": {
+          "text": "Waar kennen we Leni Riefenstahl met name van?",
+          "correctAnswer": "A",
+          "score": 2,
+          "answers": [
+            {
+              "code": "A",
+              "text": "Nazi-propagandafilm"
+            },
+            {
+              "code": "B",
+              "text": "Schansspringen"
+            },
+            {
+              "code": "C",
+              "text": "Eigen parfumlijn"
+            }
+          ],
+          "eventProperties": {}
+        },
+        "phases": [
+          {
+            "name": "SHOW",
+            "offset": 2306000
+          },
+          {
+            "name": "START",
+            "offset": 2314000
+          },
+          {
+            "name": "STOP",
+            "offset": 2318000
+          },
+          {
+            "name": "RESULTS",
+            "offset": 2327000
+          },
+          {
+            "name": "FINISHED",
+            "offset": 2338000
+          }
+        ],
+        "weekGameBlockNr": 0
+      },
+      {
+        "eventId": "60003acce4b00ec0e6fd5326",
+        "type": "TRIVIA",
+        "offset": 2361000,
+        "content": {
+          "text": "Bij welk Amsterdams gebouw hoort deze bovenkant?",
+          "correctAnswer": "C",
+          "score": 2,
+          "answers": [
+            {
+              "code": "A",
+              "text": "Beurs van Berlage"
+            },
+            {
+              "code": "B",
+              "text": "Centraal Station"
+            },
+            {
+              "code": "C",
+              "text": "Rijksmuseum"
+            }
+          ],
+          "eventProperties": {}
+        },
+        "phases": [
+          {
+            "name": "SHOW",
+            "offset": 2361000
+          },
+          {
+            "name": "START",
+            "offset": 2365000
+          },
+          {
+            "name": "STOP",
+            "offset": 2369000
+          },
+          {
+            "name": "RESULTS",
+            "offset": 2376000
+          },
+          {
+            "name": "FINISHED",
+            "offset": 2387000
+          }
+        ],
+        "weekGameBlockNr": 0
+      },
+      {
+        "eventId": "60003acce4b00ec0e6fd5327",
+        "type": "TRIVIA",
+        "offset": 2400000,
+        "content": {
+          "text": "Krantenkop uit 1989: 'Khomeini: Vermoord ... . Iraanse leider veroordeelt schrijver voor 'The Satanic Verses''",
+          "correctAnswer": "C",
+          "score": 2,
+          "answers": [
+            {
+              "code": "A",
+              "text": "Orwell"
+            },
+            {
+              "code": "B",
+              "text": "Dahl"
+            },
+            {
+              "code": "C",
+              "text": "Rushdie"
+            }
+          ],
+          "eventProperties": {}
+        },
+        "phases": [
+          {
+            "name": "SHOW",
+            "offset": 2400000
+          },
+          {
+            "name": "START",
+            "offset": 2409000
+          },
+          {
+            "name": "STOP",
+            "offset": 2413000
+          },
+          {
+            "name": "RESULTS",
+            "offset": 2425000
+          },
+          {
+            "name": "FINISHED",
+            "offset": 2432000
+          }
+        ],
+        "weekGameBlockNr": 0
+      },
+      {
+        "eventId": "60003acce4b00ec0e6fd5328",
+        "type": "TRIVIA",
+        "offset": 2524000,
+        "content": {
+          "text": "Hoe noem je een vriend die je helpt om een date te scoren?",
+          "correctAnswer": "B",
+          "score": 2,
+          "answers": [
+            {
+              "code": "A",
+              "text": "Pullman"
+            },
+            {
+              "code": "B",
+              "text": "Wingman"
+            },
+            {
+              "code": "C",
+              "text": "Anchorman"
+            }
+          ],
+          "eventProperties": {}
+        },
+        "phases": [
+          {
+            "name": "SHOW",
+            "offset": 2524000
+          },
+          {
+            "name": "START",
+            "offset": 2529000
+          },
+          {
+            "name": "STOP",
+            "offset": 2533000
+          },
+          {
+            "name": "RESULTS",
+            "offset": 2538000
+          },
+          {
+            "name": "FINISHED",
+            "offset": 2547000
+          }
+        ],
+        "weekGameBlockNr": 0
+      },
+      {
+        "eventId": "60003acce4b00ec0e6fd5329",
+        "type": "TRIVIA",
+        "offset": 2637000,
+        "content": {
+          "text": "Welke stelling is juist?",
+          "correctAnswer": "A",
+          "score": 2,
+          "answers": [
+            {
+              "code": "A",
+              "text": "Alle sterren die we 's nachts zien horen bij het Melkwegstelsel"
+            },
+            {
+              "code": "B",
+              "text": "Onze maan is de grootste maan in het zonnestelsel"
+            }
+          ],
+          "eventProperties": {}
+        },
+        "phases": [
+          {
+            "name": "SHOW",
+            "offset": 2637000
+          },
+          {
+            "name": "START",
+            "offset": 2646000
+          },
+          {
+            "name": "STOP",
+            "offset": 2650000
+          },
+          {
+            "name": "RESULTS",
+            "offset": 2656000
+          },
+          {
+            "name": "FINISHED",
+            "offset": 2663000
+          }
+        ],
+        "weekGameBlockNr": 0
+      },
+      {
+        "eventId": "60003acce4b00ec0e6fd532a",
+        "type": "TRIVIA",
+        "offset": 2690000,
+        "content": {
+          "text": "Welke herenschoen heeft altijd veters?",
+          "correctAnswer": "A",
+          "score": 2,
+          "answers": [
+            {
+              "code": "A",
+              "text": "Brogue"
+            },
+            {
+              "code": "B",
+              "text": "Mocassin"
+            },
+            {
+              "code": "C",
+              "text": "Chelsea boot"
+            }
+          ],
+          "eventProperties": {}
+        },
+        "phases": [
+          {
+            "name": "SHOW",
+            "offset": 2690000
+          },
+          {
+            "name": "START",
+            "offset": 2697000
+          },
+          {
+            "name": "STOP",
+            "offset": 2701000
+          },
+          {
+            "name": "RESULTS",
+            "offset": 2710000
+          },
+          {
+            "name": "FINISHED",
+            "offset": 2731000
+          }
+        ],
+        "weekGameBlockNr": 0
+      },
+      {
+        "eventId": "60003acce4b00ec0e6fd532b",
+        "type": "ROUND",
+        "offset": 2750000,
+        "phases": [
+          {
+            "name": "RESULTS",
+            "offset": 2750000
+          },
+          {
+            "name": "FINISHED",
+            "offset": 2769000
+          }
+        ],
+        "weekGameBlockNr": 0
+      },
+      {
+        "eventId": "60003acce4b00ec0e6fd532c",
+        "type": "TRIVIA",
+        "offset": 2809000,
+        "content": {
+          "text": "In welke monarchie is het leiderschap niet erfelijk, maar wordt het staatshoofd gekozen?",
+          "correctAnswer": "D",
+          "score": 2,
+          "answers": [
+            {
+              "code": "A",
+              "text": "Luxemburg"
+            },
+            {
+              "code": "B",
+              "text": "Marokko"
+            },
+            {
+              "code": "C",
+              "text": "Spanje"
+            },
+            {
+              "code": "D",
+              "text": "Vaticaanstad"
+            }
+          ],
+          "eventProperties": {}
+        },
+        "phases": [
+          {
+            "name": "SHOW",
+            "offset": 2809000
+          },
+          {
+            "name": "START",
+            "offset": 2817000
+          },
+          {
+            "name": "STOP",
+            "offset": 2822000
+          },
+          {
+            "name": "RESULTS",
+            "offset": 2825000
+          },
+          {
+            "name": "FINISHED",
+            "offset": 2833000
+          }
+        ],
+        "weekGameBlockNr": 0
+      },
+      {
+        "eventId": "60003acce4b00ec0e6fd532d",
+        "type": "TRIVIA",
+        "offset": 2935000,
+        "content": {
+          "text": "Welke sportpresentator was ooit professioneel basketballer?",
+          "correctAnswer": "B",
+          "score": 2,
+          "answers": [
+            {
+              "code": "A",
+              "text": "Tom Egbers"
+            },
+            {
+              "code": "B",
+              "text": "Mart Smeets"
+            },
+            {
+              "code": "C",
+              "text": "Henry Schut"
+            }
+          ],
+          "eventProperties": {}
+        },
+        "phases": [
+          {
+            "name": "SHOW",
+            "offset": 2935000
+          },
+          {
+            "name": "START",
+            "offset": 2940000
+          },
+          {
+            "name": "STOP",
+            "offset": 2944000
+          },
+          {
+            "name": "RESULTS",
+            "offset": 2967000
+          },
+          {
+            "name": "FINISHED",
+            "offset": 2978000
+          }
+        ],
+        "weekGameBlockNr": 0
+      },
+      {
+        "eventId": "60003acce4b00ec0e6fd532e",
+        "type": "TRIVIA",
+        "offset": 2992000,
+        "content": {
+          "text": "Zet de handelingen die je bij een reanimatie moet uitvoeren in de juiste volgorde.",
+          "correctAnswer": "C,B,A",
+          "score": 2,
+          "answers": [
+            {
+              "code": "A",
+              "text": "Beadem 2 keer"
+            },
+            {
+              "code": "B",
+              "text": "30 borstcompressies"
+            },
+            {
+              "code": "C",
+              "text": "Controleer het bewustzijn"
+            }
+          ],
+          "eventProperties": {}
+        },
+        "phases": [
+          {
+            "name": "SHOW",
+            "offset": 2992000
+          },
+          {
+            "name": "START",
+            "offset": 3002000
+          },
+          {
+            "name": "STOP",
+            "offset": 3012000
+          },
+          {
+            "name": "RESULTS",
+            "offset": 3037000
+          },
+          {
+            "name": "FINISHED",
+            "offset": 3058000
+          }
+        ],
+        "weekGameBlockNr": 0
+      },
+      {
+        "eventId": "60003acce4b00ec0e6fd532f",
+        "type": "TRIVIA",
+        "offset": 3062000,
+        "content": {
+          "text": "Welke vraag hoort bij het antwoord 'flapper girl'?",
+          "correctAnswer": "A",
+          "score": 2,
+          "answers": [
+            {
+              "code": "A",
+              "text": "Hoe noemde je een zelfbewuste, losbandige vrouw in de jaren 20?"
+            },
+            {
+              "code": "B",
+              "text": "Hoe noem je een jonge vrouw die veel media-aandacht krijgt?"
+            },
+            {
+              "code": "C",
+              "text": "Hoe noem je een aantrekkelijke vrouw op een tijdschriftomslag?"
+            }
+          ],
+          "eventProperties": {}
+        },
+        "phases": [
+          {
+            "name": "SHOW",
+            "offset": 3062000
+          },
+          {
+            "name": "START",
+            "offset": 3076000
+          },
+          {
+            "name": "STOP",
+            "offset": 3080000
+          },
+          {
+            "name": "RESULTS",
+            "offset": 3084000
+          },
+          {
+            "name": "FINISHED",
+            "offset": 3095000
+          }
+        ],
+        "weekGameBlockNr": 0
+      },
+      {
+        "eventId": "60003acce4b00ec0e6fd5330",
+        "type": "PAIRS",
+        "offset": 3117000,
+        "content": {
+          "text": "Welke letterlijke Nederlandse vertaling hoort bij het woord voor 'ontbijt' in welke taal?",
+          "correctAnswer": "3,1,2",
+          "score": 2,
+          "answers": [
+            {
+              "code": "1",
+              "text": "Breeksnel",
+              "match": "Frans"
+            },
+            {
+              "code": "2",
+              "text": "Klein-lunch",
+              "match": "Duits"
+            },
+            {
+              "code": "3",
+              "text": "Vroegstuk",
+              "match": "Engels"
+            }
+          ],
+          "eventProperties": {}
+        },
+        "phases": [
+          {
+            "name": "SHOW",
+            "offset": 3117000
+          },
+          {
+            "name": "START",
+            "offset": 3129000
+          },
+          {
+            "name": "STOP",
+            "offset": 3149000
+          },
+          {
+            "name": "RESULTS",
+            "offset": 3166000
+          },
+          {
+            "name": "FINISHED",
+            "offset": 3173000
+          }
+        ],
+        "weekGameBlockNr": 0
+      },
+      {
+        "eventId": "60003acce4b00ec0e6fd5331",
+        "type": "TRIVIA",
+        "offset": 3228000,
+        "content": {
+          "text": "Hoe heette dit radioprogramma?",
+          "correctAnswer": "A",
+          "score": 2,
+          "answers": [
+            {
+              "code": "A",
+              "text": "Radio Oranje"
+            },
+            {
+              "code": "B",
+              "text": "100% NL"
+            },
+            {
+              "code": "C",
+              "text": "De Nederlandsche Omroep"
+            }
+          ],
+          "eventProperties": {}
+        },
+        "phases": [
+          {
+            "name": "SHOW",
+            "offset": 3228000
+          },
+          {
+            "name": "START",
+            "offset": 3236000
+          },
+          {
+            "name": "STOP",
+            "offset": 3240000
+          },
+          {
+            "name": "RESULTS",
+            "offset": 3249000
+          },
+          {
+            "name": "FINISHED",
+            "offset": 3253000
+          }
+        ],
+        "weekGameBlockNr": 0
+      },
+      {
+        "eventId": "60003acce4b00ec0e6fd5332",
+        "type": "TRIVIA",
+        "offset": 3275000,
+        "content": {
+          "text": "Hoe noem je een verpleegkundige die gespecialiseerd is in het aanleggen van zwachtels en gips?",
+          "correctAnswer": "B",
+          "score": 2,
+          "answers": [
+            {
+              "code": "A",
+              "text": "Zwachtelmeester"
+            },
+            {
+              "code": "B",
+              "text": "Gipsverbandmeester"
+            },
+            {
+              "code": "C",
+              "text": "Bondagemeester"
+            }
+          ],
+          "eventProperties": {}
+        },
+        "phases": [
+          {
+            "name": "SHOW",
+            "offset": 3275000
+          },
+          {
+            "name": "START",
+            "offset": 3283000
+          },
+          {
+            "name": "STOP",
+            "offset": 3287000
+          },
+          {
+            "name": "RESULTS",
+            "offset": 3294000
+          },
+          {
+            "name": "FINISHED",
+            "offset": 3300000
+          }
+        ],
+        "weekGameBlockNr": 0
+      },
+      {
+        "eventId": "60003acce4b00ec0e6fd5333",
+        "type": "TRIVIA",
+        "offset": 3345000,
+        "content": {
+          "text": "Hoe werd een gecastreerde man genoemd die de harem van een Ottomaanse sultan bewaakte?",
+          "correctAnswer": "A",
+          "score": 2,
+          "answers": [
+            {
+              "code": "A",
+              "text": "Eunuch"
+            },
+            {
+              "code": "B",
+              "text": "Castreur"
+            },
+            {
+              "code": "C",
+              "text": "Gardist"
+            }
+          ],
+          "eventProperties": {}
+        },
+        "phases": [
+          {
+            "name": "SHOW",
+            "offset": 3345000
+          },
+          {
+            "name": "START",
+            "offset": 3353000
+          },
+          {
+            "name": "STOP",
+            "offset": 3357000
+          },
+          {
+            "name": "RESULTS",
+            "offset": 3361000
+          },
+          {
+            "name": "FINISHED",
+            "offset": 3375000
+          }
+        ],
+        "weekGameBlockNr": 0
+      },
+      {
+        "eventId": "60003acce4b00ec0e6fd5334",
+        "type": "TRIVIA",
+        "offset": 3449000,
+        "content": {
+          "text": "Wat komt er voor 'cum laude' te staan als je je opleiding met de hoogste lof hebt afgerond?",
+          "correctAnswer": "C",
+          "score": 2,
+          "answers": [
+            {
+              "code": "A",
+              "text": "Prima"
+            },
+            {
+              "code": "B",
+              "text": "Magma"
+            },
+            {
+              "code": "C",
+              "text": "Summa"
+            }
+          ],
+          "eventProperties": {}
+        },
+        "phases": [
+          {
+            "name": "SHOW",
+            "offset": 3449000
+          },
+          {
+            "name": "START",
+            "offset": 3454000
+          },
+          {
+            "name": "STOP",
+            "offset": 3458000
+          },
+          {
+            "name": "RESULTS",
+            "offset": 3462000
+          },
+          {
+            "name": "FINISHED",
+            "offset": 3468000
+          }
+        ],
+        "weekGameBlockNr": 0
+      },
+      {
+        "eventId": "60003acce4b00ec0e6fd5335",
+        "type": "TRIVIA",
+        "offset": 3490000,
+        "content": {
+          "text": "Krantenkop uit juli 2020: '... op Twitter: Ik stel me kandidaat voor de Amerikaanse presidentsverkiezingen'",
+          "correctAnswer": "A",
+          "score": 2,
+          "answers": [
+            {
+              "code": "A",
+              "text": "Kanye West"
+            },
+            {
+              "code": "B",
+              "text": "Elon Musk"
+            },
+            {
+              "code": "C",
+              "text": "Michelle Obama"
+            }
+          ],
+          "eventProperties": {}
+        },
+        "phases": [
+          {
+            "name": "SHOW",
+            "offset": 3490000
+          },
+          {
+            "name": "START",
+            "offset": 3498000
+          },
+          {
+            "name": "STOP",
+            "offset": 3502000
+          },
+          {
+            "name": "RESULTS",
+            "offset": 3512000
+          },
+          {
+            "name": "FINISHED",
+            "offset": 3527000
+          }
+        ],
+        "weekGameBlockNr": 0
+      },
+      {
+        "eventId": "60003acce4b00ec0e6fd5336",
+        "type": "ROUND",
+        "offset": 3550000,
+        "phases": [
+          {
+            "name": "RESULTS",
+            "offset": 3550000
+          },
+          {
+            "name": "FINISHED",
+            "offset": 3566000
+          }
+        ],
+        "weekGameBlockNr": 0
+      },
+      {
+        "eventId": "60003acce4b00ec0e6fd5337",
+        "type": "TRIVIA",
+        "offset": 3615000,
+        "content": {
+          "text": "Op welke foto zie je de NOS-correspondent die in Brussel is gestationeerd?",
+          "correctAnswer": "B",
+          "score": 2,
+          "answers": [
+            {
+              "code": "A",
+              "text": "Foto A"
+            },
+            {
+              "code": "B",
+              "text": "Foto B"
+            },
+            {
+              "code": "C",
+              "text": "Foto C"
+            }
+          ],
+          "eventProperties": {}
+        },
+        "phases": [
+          {
+            "name": "SHOW",
+            "offset": 3615000
+          },
+          {
+            "name": "START",
+            "offset": 3621000
+          },
+          {
+            "name": "STOP",
+            "offset": 3625000
+          },
+          {
+            "name": "RESULTS",
+            "offset": 3638000
+          },
+          {
+            "name": "FINISHED",
+            "offset": 3642000
+          }
+        ],
+        "weekGameBlockNr": 0
+      },
+      {
+        "eventId": "60003acce4b00ec0e6fd5338",
+        "type": "TRIVIA",
+        "offset": 3665000,
+        "content": {
+          "text": "Wat is een soort ochtendjas? Er zijn meerdere antwoorden goed.",
+          "correctAnswer": "A,B",
+          "score": 2,
+          "answers": [
+            {
+              "code": "A",
+              "text": "Peignoir"
+            },
+            {
+              "code": "B",
+              "text": "Duster"
+            },
+            {
+              "code": "C",
+              "text": "Culotte"
+            },
+            {
+              "code": "D",
+              "text": "Cardigan"
+            }
+          ],
+          "eventProperties": {}
+        },
+        "phases": [
+          {
+            "name": "SHOW",
+            "offset": 3665000
+          },
+          {
+            "name": "START",
+            "offset": 3674000
+          },
+          {
+            "name": "STOP",
+            "offset": 3689000
+          },
+          {
+            "name": "RESULTS",
+            "offset": 3697000
+          },
+          {
+            "name": "FINISHED",
+            "offset": 3721000
+          }
+        ],
+        "weekGameBlockNr": 0
+      },
+      {
+        "eventId": "60003acce4b00ec0e6fd5339",
+        "type": "TRIVIA",
+        "offset": 3798000,
+        "content": {
+          "text": "Naar welk gereedschap is een bekende haaiensoort genoemd?",
+          "correctAnswer": "C",
+          "score": 2,
+          "answers": [
+            {
+              "code": "A",
+              "text": "Vijl"
+            },
+            {
+              "code": "B",
+              "text": "Boor"
+            },
+            {
+              "code": "C",
+              "text": "Hamer"
+            }
+          ],
+          "eventProperties": {}
+        },
+        "phases": [
+          {
+            "name": "SHOW",
+            "offset": 3798000
+          },
+          {
+            "name": "START",
+            "offset": 3805000
+          },
+          {
+            "name": "STOP",
+            "offset": 3809000
+          },
+          {
+            "name": "RESULTS",
+            "offset": 3813000
+          },
+          {
+            "name": "FINISHED",
+            "offset": 3819000
+          }
+        ],
+        "weekGameBlockNr": 0
+      },
+      {
+        "eventId": "60003acce4b00ec0e6fd533a",
+        "type": "TRIVIA",
+        "offset": 3834000,
+        "content": {
+          "text": "Regenbogen zijn complete cirkels, al kun je dit alleen vanuit de lucht zien.",
+          "correctAnswer": "A",
+          "score": 2,
+          "answers": [
+            {
+              "code": "A",
+              "text": "Waar"
+            },
+            {
+              "code": "B",
+              "text": "Niet waar"
+            }
+          ],
+          "eventProperties": {}
+        },
+        "phases": [
+          {
+            "name": "SHOW",
+            "offset": 3834000
+          },
+          {
+            "name": "START",
+            "offset": 3841000
+          },
+          {
+            "name": "STOP",
+            "offset": 3845000
+          },
+          {
+            "name": "RESULTS",
+            "offset": 3872000
+          },
+          {
+            "name": "FINISHED",
+            "offset": 3877000
+          }
+        ],
+        "weekGameBlockNr": 0
+      },
+      {
+        "eventId": "60003acce4b00ec0e6fd533b",
+        "type": "TRIVIA",
+        "offset": 3887000,
+        "content": {
+          "text": "Wat is 8662 x 4224?",
+          "correctAnswer": "B",
+          "score": 2,
+          "answers": [
+            {
+              "code": "A",
+              "text": "31511311"
+            },
+            {
+              "code": "B",
+              "text": "36588288"
+            },
+            {
+              "code": "C",
+              "text": "39377177"
+            }
+          ],
+          "eventProperties": {}
+        },
+        "phases": [
+          {
+            "name": "SHOW",
+            "offset": 3887000
+          },
+          {
+            "name": "START",
+            "offset": 3897000
+          },
+          {
+            "name": "STOP",
+            "offset": 3901000
+          },
+          {
+            "name": "RESULTS",
+            "offset": 3919000
+          },
+          {
+            "name": "FINISHED",
+            "offset": 3926000
+          }
+        ],
+        "weekGameBlockNr": 0
+      },
+      {
+        "eventId": "60003acce4b00ec0e6fd533c",
+        "type": "TRIVIA",
+        "offset": 3931000,
+        "content": {
+          "text": "Welke vraag hoort bij het antwoord 'wildcard'?",
+          "correctAnswer": "C",
+          "score": 2,
+          "answers": [
+            {
+              "code": "A",
+              "text": "Hoe noem je een valse creditcard met gekopieerde klantgegevens?"
+            },
+            {
+              "code": "B",
+              "text": "Hoe heet een jachtvergunning in het Engels?"
+            },
+            {
+              "code": "C",
+              "text": "Wat krijgt een ongeplaatste speler die aan een toernooi mag meedoen?"
+            }
+          ],
+          "eventProperties": {}
+        },
+        "phases": [
+          {
+            "name": "SHOW",
+            "offset": 3931000
+          },
+          {
+            "name": "START",
+            "offset": 3946000
+          },
+          {
+            "name": "STOP",
+            "offset": 3950000
+          },
+          {
+            "name": "RESULTS",
+            "offset": 3956000
+          },
+          {
+            "name": "FINISHED",
+            "offset": 3960000
+          }
+        ],
+        "weekGameBlockNr": 0
+      },
+      {
+        "eventId": "60003acce4b00ec0e6fd533d",
+        "type": "TRIVIA",
+        "offset": 3969000,
+        "content": {
+          "text": "Op welke foto zie je een bananenplant?",
+          "correctAnswer": "A",
+          "score": 2,
+          "answers": [
+            {
+              "code": "A",
+              "text": "Foto A"
+            },
+            {
+              "code": "B",
+              "text": "Foto B"
+            },
+            {
+              "code": "C",
+              "text": "Foto C"
+            }
+          ],
+          "eventProperties": {}
+        },
+        "phases": [
+          {
+            "name": "SHOW",
+            "offset": 3969000
+          },
+          {
+            "name": "START",
+            "offset": 3974000
+          },
+          {
+            "name": "STOP",
+            "offset": 3978000
+          },
+          {
+            "name": "RESULTS",
+            "offset": 3984000
+          },
+          {
+            "name": "FINISHED",
+            "offset": 3993000
+          }
+        ],
+        "weekGameBlockNr": 0
+      },
+      {
+        "eventId": "60003acce4b00ec0e6fd533e",
+        "type": "TRIVIA",
+        "offset": 4092000,
+        "content": {
+          "text": "Naar welke Griek is een liefdesrelatie zonder seks vernoemd?",
+          "correctAnswer": "C",
+          "score": 2,
+          "answers": [
+            {
+              "code": "A",
+              "text": "Homerus"
+            },
+            {
+              "code": "B",
+              "text": "Solon"
+            },
+            {
+              "code": "C",
+              "text": "Plato"
+            }
+          ],
+          "eventProperties": {}
+        },
+        "phases": [
+          {
+            "name": "SHOW",
+            "offset": 4092000
+          },
+          {
+            "name": "START",
+            "offset": 4097000
+          },
+          {
+            "name": "STOP",
+            "offset": 4101000
+          },
+          {
+            "name": "RESULTS",
+            "offset": 4113000
+          },
+          {
+            "name": "FINISHED",
+            "offset": 4120000
+          }
+        ],
+        "weekGameBlockNr": 0
+      },
+      {
+        "eventId": "60003acce4b00ec0e6fd533f",
+        "type": "PAIRS",
+        "offset": 4145000,
+        "content": {
+          "text": "In welke tv-serie speelde welke acteur een hoofdrol?",
+          "correctAnswer": "3,2,1",
+          "score": 2,
+          "answers": [
+            {
+              "code": "1",
+              "text": "Sherlock",
+              "match": "Kit Harington"
+            },
+            {
+              "code": "2",
+              "text": "Breaking Bad",
+              "match": "Bryan Cranston"
+            },
+            {
+              "code": "3",
+              "text": "Game of Thrones",
+              "match": "Benedict Cumberbatch"
+            }
+          ],
+          "eventProperties": {}
+        },
+        "phases": [
+          {
+            "name": "SHOW",
+            "offset": 4145000
+          },
+          {
+            "name": "START",
+            "offset": 4156000
+          },
+          {
+            "name": "STOP",
+            "offset": 4176000
+          },
+          {
+            "name": "RESULTS",
+            "offset": 4188000
+          },
+          {
+            "name": "FINISHED",
+            "offset": 4196000
+          }
+        ],
+        "weekGameBlockNr": 0
+      },
+      {
+        "eventId": "60003acce4b00ec0e6fd5340",
+        "type": "TRIVIA",
+        "offset": 4261000,
+        "content": {
+          "text": "Welke stelling is juist?",
+          "correctAnswer": "B",
+          "score": 2,
+          "answers": [
+            {
+              "code": "A",
+              "text": "Een vrouwelijke inwoner van Lesbos heet officieel een 'Lesbienne'"
+            },
+            {
+              "code": "B",
+              "text": "Een vrouwelijke inwoner van Frankrijk heet officieel een 'Franse'"
+            }
+          ],
+          "eventProperties": {}
+        },
+        "phases": [
+          {
+            "name": "SHOW",
+            "offset": 4261000
+          },
+          {
+            "name": "START",
+            "offset": 4270000
+          },
+          {
+            "name": "STOP",
+            "offset": 4274000
+          },
+          {
+            "name": "RESULTS",
+            "offset": 4288000
+          },
+          {
+            "name": "FINISHED",
+            "offset": 4295000
+          }
+        ],
+        "weekGameBlockNr": 0
+      },
+      {
+        "eventId": "60003acce4b00ec0e6fd5341",
+        "type": "ROUND",
+        "offset": 4313000,
+        "phases": [
+          {
+            "name": "RESULTS",
+            "offset": 4313000
+          },
+          {
+            "name": "FINISHED",
+            "offset": 4329000
+          }
+        ],
+        "weekGameBlockNr": 0
+      }
+    ],
+    "audioSyncType": "RELATIVE",
+    "blockIndex": 0,
+    "broadcastWindowStartDate": 1610823300000,
+    "broadcastWindowEndDate": 1610830800000,
+    "canAudioSync": true,
+    "contentVersion": 2,
+    "crowdSync": false,
+    "contentId": "4",
+    "totalScore": 100,
+    "openDate": 1610226300000,
+    "state": "BROADCAST",
+    "version": 12,
+    "timingVersion": 3,
+    "clientMetaData": {
+      "episodeId": "5fe9f33ae4b02b2f9c166485"
+    },
+    "interactionTiming": "PRE_RECORDED"
+  }

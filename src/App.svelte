@@ -10,6 +10,7 @@
     let selectedEpisode: string = '';
     let episodeData: EpisodeDataType = {};
 
+
     async function fetchEpisode(): Promise<void> {
         if (selectedEpisode !== '') {
             episodeData = (await http.get(`/${selectedEpisode}.json`)).data;
@@ -98,7 +99,7 @@
     }
   }
 
-  $black: #ffffff;
+  $black: #000;
   $grey: #5E5E5E;
   $lightgrey: #F2F2F2;
   $orange: #ff5218;
