@@ -104,6 +104,7 @@
   $lightgrey: #F2F2F2;
   $orange: #ff5218;
   $white: #FFF;
+  $black: #000;
 
   $gradientOrange: #ff793d, #f43e01;
 
@@ -167,7 +168,7 @@
       padding: 25px;
       box-sizing: border-box;
       border-radius: 15px;
-      @include prefix(box-shadow, 0 0 97px 0 rgba($black, 0.41), webkit moz);
+      @include prefix(box-shadow, 0 0 15px 0 rgba($black, 0.21), webkit moz);
 
 
       :global(h3.question) {
