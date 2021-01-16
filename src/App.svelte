@@ -98,6 +98,7 @@
     }
   }
 
+  $black: #ffffff;
   $grey: #5E5E5E;
   $lightgrey: #F2F2F2;
   $orange: #ff5218;
