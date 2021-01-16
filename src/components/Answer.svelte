@@ -3,10 +3,14 @@
     export let content: Event;
     export let type: string;
 
+    console.log(`ANSWER TYPE: ${type}`);
+
     let sortedAnswers = content.answers?.map((answer, i) => {
       if(type === 'PAIRS') {
+        const correctAnswerData = content.answers
+          .find(({ code }) => code === content.correctAnswer.split(',')[i]);
         const answerData = answer;
-          answerData.text = `${answer.text} - ${answer.match}`;
+          answerData.text = `${answer.text} - ${correctAnswerData.match}`;
         return answerData;
       }
       if(type === 'ORDER') {

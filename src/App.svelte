@@ -10,8 +10,8 @@
     let selectedEpisode: string = '';
     let episodeData: EpisodeDataType = {};
 
-
     async function fetchEpisode(): Promise<void> {
+        episodeData = {};
         if (selectedEpisode !== '') {
             episodeData = (await http.get(`/${selectedEpisode}.json`)).data;
         } else {
